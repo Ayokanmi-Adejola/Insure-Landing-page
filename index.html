@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="Insure">
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link">How we work</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">Account</a></li>
+            <li><a href="#" class="nav-link nav-link--cta">View plans</a></li>
+          </ul>
+        </nav>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+          <img src="./images/icon-hamburger.svg" alt="Menu" class="hamburger-icon">
+          <img src="./images/icon-close.svg" alt="Close" class="close-icon">
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav-list">
+          <li><a href="#" class="mobile-nav-link">How we work</a></li>
+          <li><a href="#" class="mobile-nav-link">Blog</a></li>
+          <li><a href="#" class="mobile-nav-link">Account</a></li>
+          <li><a href="#" class="mobile-nav-link mobile-nav-link--cta">View plans</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Humanizing your insurance.</h1>
+            <p class="hero-description">
+              Get your life insurance coverage easier and faster. We blend our expertise
+              and technology to help you find the plan that's right for you. Ensure you
+              and your loved ones are protected.
+            </p>
+            <a href="#" class="btn btn--primary">View plans</a>
+          </div>
+          <div class="hero-image">
+            <img src="./images/image-intro-desktop.jpg" alt="Family" class="hero-img desktop-img">
+            <img src="./images/image-intro-mobile.jpg" alt="Family" class="hero-img mobile-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="features-title">We're different</h2>
+
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./images/icon-snappy-process.svg" alt="Snappy Process">
+            </div>
+            <h3 class="feature-title">Snappy Process</h3>
+            <p class="feature-description">
+              Our application process can be completed in minutes, not hours. Don't get
+              stuck filling in tedious forms.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./images/icon-affordable-prices.svg" alt="Affordable Prices">
+            </div>
+            <h3 class="feature-title">Affordable Prices</h3>
+            <p class="feature-description">
+              We don't want you worrying about high monthly costs. Our prices may be low,
+              but we still offer the best coverage possible.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./images/icon-people-first.svg" alt="People First">
+            </div>
+            <h3 class="feature-title">People First</h3>
+            <p class="feature-description">
+              Our plans aren't full of conditions and clauses to prevent payouts. We make
+              sure you're covered when you need it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Find out more about how we work</h2>
+          <a href="#" class="btn btn--primary">How we work</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./images/logo.svg" alt="Insure">
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <img src="./images/icon-facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter">
+            <img src="./images/icon-twitter.svg" alt="Twitter">
+          </a>
+          <a href="#" class="social-link" aria-label="Pinterest">
+            <img src="./images/icon-pinterest.svg" alt="Pinterest">
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <img src="./images/icon-instagram.svg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3 class="footer-column-title">Our company</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">How we work</a></li>
+            <li><a href="#" class="footer-link">Why Insure?</a></li>
+            <li><a href="#" class="footer-link">View plans</a></li>
+            <li><a href="#" class="footer-link">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Help me</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#" class="footer-link">Terms of use</a></li>
+            <li><a href="#" class="footer-link">Privacy policy</a></li>
+            <li><a href="#" class="footer-link">Cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Contact</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Sales</a></li>
+            <li><a href="#" class="footer-link">Support</a></li>
+            <li><a href="#" class="footer-link">Live chat</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Others</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Press</a></li>
+            <li><a href="#" class="footer-link">Licenses</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayokanmi Adejola</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
