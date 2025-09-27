@@ -12,6 +12,10 @@
 
 Insure Landing Page is a modern, fully responsive website designed for an insurance company. This project demonstrates best practices in front-end development, including mobile-first design, semantic HTML, modern CSS techniques, and progressive enhancement with JavaScript.
 
+| Desktop View | Mobile View |
+| ------- | ------ |
+|<img width="1440" height="2410" alt="image" src="https://github.com/user-attachments/assets/2e8e3d34-3154-45f5-ade4-ebbe39eee485" />|<img width="375" height="3851" alt="image" src="https://github.com/user-attachments/assets/1ecfb331-4a34-41e3-9744-b35b29eae1b9" />|
+
 ### 🎯 The Challenge
 
 The goal was to build a pixel-perfect landing page that matches the provided design specifications while ensuring:
